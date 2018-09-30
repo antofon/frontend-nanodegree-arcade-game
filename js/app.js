@@ -34,7 +34,7 @@ class Player {
     this.y = y;
     this.speed = speed;
   }
-  
+
   update() {}
 
   render() {}
@@ -53,7 +53,7 @@ let enemy3 = new Enemy(200,350);
 var allEnemies = [];
 allEnemies.push(enemy1, enemy2, enemy3);
 // Place the player object in a variable called player
-let player = new Player(5,5,1);
+let player = new Player(50,50,2);
 player.render();
 
 // This listens for key presses and sends the keys to your
